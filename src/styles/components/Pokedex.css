@@ -1,0 +1,14 @@
+fieldset {
+  border: none;
+}
+
+.pokedex {
+  display: flex;
+  flex-flow: column;
+}
+
+.pokedex-search-form {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+}
