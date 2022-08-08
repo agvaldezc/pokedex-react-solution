@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import PokemonCard from './PokemonCard';
+import PokemonCard from './PokemonCard/PokemonCard.js';
 import { getPokemon } from '../services/api.js';
 
-import '../styles/components/Pokedex.css';
+import './Pokedex.css';
 
 const Pokedex = () => {
   const [pokemon, setPokemon] = useState(null);
